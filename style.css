@@ -1,0 +1,112 @@
+header{
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+color: rgb(189, 27, 189);
+border-radius: 50px;
+width: 1000px;
+text-align: center ;
+margin: 0 auto;
+}
+
+.caixa{
+    margin: 0 auto;
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    border-radius: 20px;
+    width: 1000px;
+}
+
+main{
+    font-family: Arial, Helvetica, sans-serif;
+color: rgb(108, 0, 112);
+margin: 20px;
+text-align: center;
+font-size: 20px;
+}
+
+div img{
+    height: 400px;
+    margin: auto;
+border-radius: 1000px;
+border-style: hidden;
+padding: 10px;
+text-align: center;
+position: relative;
+animation-name: girar;
+animation-duration: 2s;
+}
+
+button{
+   border-radius: 500px;
+    background-color: rgb(194, 16, 194);
+    color: rgb(137, 15, 207);
+    height: 50px;
+}
+
+button:hover {
+   background-color: rgb(185, 33, 152);
+   color: rgb(232, 172, 255); 
+   cursor: pointer;
+}
+
+.whats-pic{
+height: 30px;
+width: 30px;
+border: none;
+}
+
+.caixa2{
+    margin: 0 auto;
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    border-radius: 50px;
+    width: 800px;
+    height: 300px;
+}
+
+.project{
+    font-family: Arial, Helvetica, sans-serif;
+color: rgb(177, 30, 177);
+margin: 20px;
+text-align: center;
+}
+
+div.img{
+    border-radius: 1000%;
+}
+
+
+
+body{
+    background-color: deeppink;
+
+} 
+
+    div img{
+        height: 400px;
+        margin: auto;
+    border-radius: 1000px;
+    border-style: hidden;
+    padding: 10px;
+    text-align: center;
+    position: relative;
+    animation-name: girar;
+    text-align: center;
+    align-content: center;
+    animation: girar 0.01s linear ease forwards;
+    border-radius: 1000%;
+}
+
+div.hover{
+    border-radius: 1000%;
+}
+
+@keyframes girar{
+0%{
+    transform: rotate(0deg);
+}
+100%{
+    transform: rotate(360deg);
+}
+
+}
